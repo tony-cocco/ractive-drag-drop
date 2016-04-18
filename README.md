@@ -16,13 +16,14 @@ Inspiration from: https://github.com/Nijikokun/ractive.drag.drop.js
 - And in your Ractive controller:
 
 ```
-var Component = Ractive.extend({
+Ractive.extend({
   // ...
   oninit: function() {
     this.on('drag-start', function onDragStart(ev) { /* ... */ }; );
     this.on('drag-end', function onDragEnd(ev) { /* ... */ }; );
   }
   // ...
+});
 ```
 
 # Further Reading
